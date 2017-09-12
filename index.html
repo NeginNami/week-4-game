@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal game</title>
+	
+</head>
+<body>
+	<h1>Crystals Collector</h1>
+	<h3>How to play?</h3>
+	<p>You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal, you will add a specific amount of points to 
+	your total score</p>
+	<p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+	<p>The value of each crystal is hidden from you, until you click on it.</p>
+	<p>Each time when the game starts, the game will change the values of each crystal.</p>
+	<div id="score">
+		<p>Score:</p>
+	</div>
+	<div>
+		<p id="wins">Wins:</p>
+		<p id="losses">Losses:</p>
+	</div>
+	<div class="crystal_images">
+		<div id="crys1" class="crystal" style="display: inline;"><img src="assets/images/white_crystal_small.jpg" style="display: inline; width: 100px; height: 100px;"></div>
+		<div id="crys2" class="crystal"  style="display: inline;"><img src="assets/images/white_crystal_small.jpg" style="display: inline; width: 100px; height: 100px;"></div>
+		<div id="crys3" class="crystal"  style="display: inline;"><img src="assets/images/white_crystal_small.jpg" style="display: inline; width: 100px; height: 100px;"></div>
+		<div id="crys4" class="crystal"  style="display: inline;"><img src="assets/images/white_crystal_small.jpg" style="display: inline; width: 100px; height: 100px;"></div>
+	</div>
+	<div class="total_score">
+		<p>Your total score is:</p>
+		
+	</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
