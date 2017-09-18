@@ -10,17 +10,17 @@ Try to reach the score which is shown on top.
 ## Prerequisites & Installing
 
 Just a web browser would be enough to run the game. I would recommend Google Chrome. You don't need to install anything extra.
-
-### Deployment
-
-This game is deployed on github. So by this link: https://neginnami.github.io/week-4-game you can access to it. 
-
+ 
 ### Running and test
 
 I put some cosole log in the code. So it make it easier to test the game. If you open your console in your Chrome you can see which number each crystal generates after clicking on it.
 This would be helpful when you want to get to a certain state (win or loss) in order of testing the game.
 
-### Built With
+## Deployment
+
+This game is deployed on github. So by this link: https://neginnami.github.io/week-4-game you can access to it.
+
+## Built With
 
 * [Javascript](https://www.javascript.com/)
 * [HTML](https://en.wikipedia.org/wiki/HTML)
