@@ -56,7 +56,7 @@ function reset() {
 }
 function update_total_score() {
 
-	$(".total_score").html("<p> Your total Score is: "+total_score+"</p>");
+	$(".total_score").html("<p> Total Score: "+total_score+"</p>");
 }
 function update_random_number() {
 	$("#score").html("<p>"+random_number+"</p>");
